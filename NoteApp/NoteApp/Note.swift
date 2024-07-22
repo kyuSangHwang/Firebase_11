@@ -11,17 +11,4 @@ import FirebaseFirestoreSwift
 struct Note: Codable {
     @DocumentID var id: String?
     var title: String?
-    
-    // MARK: - Function to Post Data
-    
-    
-    // MARK: - Function to Read Data
-    
-    
-    // MARK: - Function to Update Data
-    
-    
-    // MARK: - Function to Delete Data
-    
-    
 }

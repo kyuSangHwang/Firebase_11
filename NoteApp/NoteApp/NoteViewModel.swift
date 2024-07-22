@@ -12,4 +12,15 @@ class NoteViewModel: ObservableObject {
     @Published var notes = [Note]()
     
     private var databaseReference = Firestore.firestore().collection("Notes")
+    
+    // MARK: - Function to Post Data
+    
+    
+    // MARK: - Function to Read Data
+    
+    
+    // MARK: - Function to Update Data
+    
+    
+    // MARK: - Function to Delete Data
 }
