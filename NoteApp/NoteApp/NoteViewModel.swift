@@ -20,7 +20,18 @@ class NoteViewModel: ObservableObject {
     }
     
     // MARK: - Function to Read Data
-    
+    func fetchData() {
+        databaseReference.addSnapshotListener { (querySnapshot, error) in
+            guard let documents = querySnapshot?.documents else {
+                print("No documents")
+                return
+            }
+            
+            self.notes = documents.compactMap { docSnap -> Note? in
+                return try? docSnap.data(as: Note.self)
+            }
+        }
+    }
     
     // MARK: - Function to Update Data
     
