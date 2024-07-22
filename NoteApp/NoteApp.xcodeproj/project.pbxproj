@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78371B842C4E21D5004037CD /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78371B832C4E21D5004037CD /* DetailsView.swift */; };
 		78B033222C4DE8EF00C67476 /* NoteAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B033212C4DE8EF00C67476 /* NoteAppApp.swift */; };
 		78B033242C4DE8EF00C67476 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B033232C4DE8EF00C67476 /* ContentView.swift */; };
 		78B033262C4DE8F100C67476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78B033252C4DE8F100C67476 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78371B832C4E21D5004037CD /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		78B0331E2C4DE8EF00C67476 /* NoteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B033212C4DE8EF00C67476 /* NoteAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteAppApp.swift; sourceTree = "<group>"; };
 		78B033232C4DE8EF00C67476 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				78B033212C4DE8EF00C67476 /* NoteAppApp.swift */,
 				78B033232C4DE8EF00C67476 /* ContentView.swift */,
 				78B0333C2C4DFC3600C67476 /* FormView.swift */,
+				78371B832C4E21D5004037CD /* DetailsView.swift */,
 				78B033252C4DE8F100C67476 /* Assets.xcassets */,
 				78B033272C4DE8F100C67476 /* Preview Content */,
 				78B033382C4DF92700C67476 /* Note.swift */,
@@ -169,6 +172,7 @@
 				78B0333D2C4DFC3600C67476 /* FormView.swift in Sources */,
 				78B033222C4DE8EF00C67476 /* NoteAppApp.swift in Sources */,
 				78B033392C4DF92700C67476 /* Note.swift in Sources */,
+				78371B842C4E21D5004037CD /* DetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
