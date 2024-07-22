@@ -11,6 +11,7 @@
 		78B033242C4DE8EF00C67476 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B033232C4DE8EF00C67476 /* ContentView.swift */; };
 		78B033262C4DE8F100C67476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78B033252C4DE8F100C67476 /* Assets.xcassets */; };
 		78B033292C4DE8F100C67476 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78B033282C4DE8F100C67476 /* Preview Assets.xcassets */; };
+		78B033302C4DEADA00C67476 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78B0332F2C4DEADA00C67476 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		78B033232C4DE8EF00C67476 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		78B033252C4DE8F100C67476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78B033282C4DE8F100C67476 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		78B0332F2C4DEADA00C67476 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 		78B033152C4DE8EF00C67476 = {
 			isa = PBXGroup;
 			children = (
+				78B0332F2C4DEADA00C67476 /* GoogleService-Info.plist */,
 				78B033202C4DE8EF00C67476 /* NoteApp */,
 				78B0331F2C4DE8EF00C67476 /* Products */,
 			);
@@ -127,6 +130,7 @@
 			files = (
 				78B033292C4DE8F100C67476 /* Preview Assets.xcassets in Resources */,
 				78B033262C4DE8F100C67476 /* Assets.xcassets in Resources */,
+				78B033302C4DEADA00C67476 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +276,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NoteApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 69322Q887D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -284,7 +289,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kr.treepet.NoteApp;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.codegrove.NoteApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -300,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NoteApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 69322Q887D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -312,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kr.treepet.NoteApp;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.codegrove.NoteApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
