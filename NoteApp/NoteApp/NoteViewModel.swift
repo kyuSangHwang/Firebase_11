@@ -14,7 +14,10 @@ class NoteViewModel: ObservableObject {
     private var databaseReference = Firestore.firestore().collection("Notes")
     
     // MARK: - Function to Post Data
-    
+    func addData(title: String) {
+        let docRef = databaseReference.addDocument(data: ["title": title])
+        dump(docRef)
+    }
     
     // MARK: - Function to Read Data
     
