@@ -22,6 +22,7 @@
 		78B9EF262C4F71B4000A8591 /* HolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B9EF252C4F71B4000A8591 /* HolderView.swift */; };
 		78B9EF282C4F71D7000A8591 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B9EF272C4F71D7000A8591 /* SignUpView.swift */; };
 		78B9EF2A2C4F720F000A8591 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B9EF292C4F720F000A8591 /* AuthViewModel.swift */; };
+		78B9EF2C2C4F72A7000A8591 /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B9EF2B2C4F72A7000A8591 /* ResetPasswordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		78B9EF252C4F71B4000A8591 /* HolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolderView.swift; sourceTree = "<group>"; };
 		78B9EF272C4F71D7000A8591 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		78B9EF292C4F720F000A8591 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		78B9EF2B2C4F72A7000A8591 /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				78371B832C4E21D5004037CD /* DetailsView.swift */,
 				78B9EF252C4F71B4000A8591 /* HolderView.swift */,
 				78B9EF272C4F71D7000A8591 /* SignUpView.swift */,
+				78B9EF2B2C4F72A7000A8591 /* ResetPasswordView.swift */,
 				78B033252C4DE8F100C67476 /* Assets.xcassets */,
 				78B033272C4DE8F100C67476 /* Preview Content */,
 				78B033382C4DF92700C67476 /* Note.swift */,
@@ -183,6 +186,7 @@
 				78B9EF282C4F71D7000A8591 /* SignUpView.swift in Sources */,
 				78B033222C4DE8EF00C67476 /* NoteAppApp.swift in Sources */,
 				78B033392C4DF92700C67476 /* Note.swift in Sources */,
+				78B9EF2C2C4F72A7000A8591 /* ResetPasswordView.swift in Sources */,
 				78371B842C4E21D5004037CD /* DetailsView.swift in Sources */,
 				78B9EF2A2C4F720F000A8591 /* AuthViewModel.swift in Sources */,
 			);
