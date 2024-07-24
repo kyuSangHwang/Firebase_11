@@ -2,18 +2,18 @@
 //  ResetPasswordView.swift
 //  NoteApp
 //
-//  Created by 황규상 on 7/23/24.
+//  Created by kyusang Hwang on 7/23/24.
 //
 
 import SwiftUI
 
 struct ResetPasswordView: View {
     @Environment(\.dismiss) var dismiss
-    
+
     @EnvironmentObject var authModel: AuthViewModel
-    
+
     @State private var emailAddress: String = ""
-    
+
     var body: some View {
         NavigationStack {
             Form {

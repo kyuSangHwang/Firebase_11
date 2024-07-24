@@ -2,7 +2,7 @@
 //  SignUpView.swift
 //  NoteApp
 //
-//  Created by 황규상 on 7/23/24.
+//  Created by kyusang Hwang on 7/23/24.
 //
 
 import SwiftUI

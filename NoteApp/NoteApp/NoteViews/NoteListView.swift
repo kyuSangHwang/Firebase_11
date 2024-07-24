@@ -2,12 +2,12 @@
 //  ContentView.swift
 //  NoteApp
 //
-//  Created by 황규상 on 7/22/24.
+//  Created by kyusang Hwang on 7/22/24.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct NoteListView: View {
     @EnvironmentObject private var authModel: AuthViewModel
     
     @State private var showSheet = false
@@ -59,7 +59,6 @@ struct ContentView: View {
     }
 }
 
-
 #Preview {
-    ContentView()
+    NoteListView()
 }

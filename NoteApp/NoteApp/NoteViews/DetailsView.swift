@@ -2,7 +2,7 @@
 //  DetailsView.swift
 //  NoteApp
 //
-//  Created by 황규상 on 7/22/24.
+//  Created by kyusang Hwang on 7/22/24.
 //
 
 import SwiftUI
@@ -19,8 +19,9 @@ struct DetailsView: View {
             ScrollView {
                 VStack {
                     Text(note.title ?? "")
-                        .font(.system(size: 22, weight: .regular))
+                        .font(.system(size:22, weight: .regular))
                         .padding()
+                    Spacer()
                 }
             }
             .navigationTitle("Details")
@@ -53,5 +54,5 @@ struct DetailsView: View {
 
 #Preview {
     DetailsView(note: Note(title: "Test"))
-             .environmentObject(NoteViewModel())
+        .environmentObject(NoteViewModel())
 }
